@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Leaflet Map</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="styles/style.css">
+
+        <!-- Leaflet's css-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+        <!-- Leaflet's JavaScript-->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    </head>
+
+    <body>
+        <div class="intro">
+            <h1>Victoria Delk</h1>
+            <img class="fit-picture"
+                src="./Screenshot_20230406-104321_2.png"
+                alt="Me in China Town LA">
+            <p>Hello! I am Vicky! I am a fourth year Computer Science Major and am going to be working in Seattle
+                next year as a Product Manager at Xbox. I am so excited to be taking this class this quarter and learning how to use my technical and computer skills for activism.
+                Digital mapping is a facet of technology that is very new to me and I hope to walk away being able apply the critical thinking like skills from this class into 
+                whatever I do in my future, or prehaps learn how to persue ths field in my future. </p>
+            <h3>My Interests</h3>
+            <ul>
+                <li>Baking</li>
+                <li>Cats</li>
+                <li>Reading</li>
+                <li>Running</li>
+                <li>Gymnastics</li>
+                <li>Trying new food
+                    <ul>
+                        <li>especially donuts</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>Connect with me</h2>
+            <ol>
+                <li><a href="https://www.linkedin.com/in/victoriadelk/">Linkedin</a></li>
+                <li><a href="https://www.instagram.com/vickydelk/">Instagram</a></li>
+            </ol>
+        </div>
+        <h2 id="titlemap">Map of Pets around the world</h2>
+        <div class="main">
+            <div id="contents">
+                
+                <div id="placeForButtons"></div>
+                <!-- Be sure to use your own survey here!!!!!!! -->
+                <div id="theSurvey">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeXxGmO5irG7z_NyHOQe-9vGB4yC4qIKCsplZYLu16h3u56TA/viewform?embedded=true" width="640" height="748" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>   
+                </div>
+            </div>
+            <div id="the_map"></div>
+        </div>
+        <div id="footer">
+            Copyright(2023)
+        </div>
+        <script src="js/init.js"></script>
+    </body>
+</html>
+
